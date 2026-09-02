@@ -1,9 +1,8 @@
 # DBB Community Repository
 
-Welcome to the IBM Dependency Based Build (DBB) community repository. The helpful and handy location for finding and sharing example DBB scripts and snippets.
+Welcome to the IBM Dependency Based Build (DBB) community repository. The helpful and handy location for finding and sharing example DBB scripts and snippets when building out DevOps pipelines for the mainframe.
 
 ## Resources
-
 
 * [IBM Dependency Based Build Product Page](https://www.ibm.com/products/dependency-based-build)
 * [IBM DBB Documentation](https://www.ibm.com/docs/en/dbb)
@@ -14,12 +13,19 @@ Welcome to the IBM Dependency Based Build (DBB) community repository. The helpfu
 * [IBM DevOps Acceleration Program Solution Page](https://ibm.github.io/z-devops-acceleration-program/)
 
 ## Versions
-Branches and tags are used in this repository to help clarify the appropriate DBB version for the example scripts and snippets.
 
-This repository has different branches, currently:
-* [main](https://github.com/IBM/dbb/tree/main) - The branch where current development occurs, and the DBB repository is for the most recent DBB major version.  This branch may not be appropriate for older versions of DBB. 
+Branches convey the purpose of their assets. [Releases](https://github.com/IBM/dbb/releases) are published frequently to highlight important updates. Tags no longer mirror product version numbers — samples document their own version requirements. Backward compatibility is not a primary objective.
 
-The individual specific versions are tagged, such as [v2.0.0](https://github.com/IBM/dbb/tree/v2.0.0) and [v1.1.14](https://github.com/IBM/dbb/tree/v1.1.4) tags and can be found as [Github releases](https://github.com/IBM/dbb/releases)
+> [!NOTE]
+> In future releases, the repository layout will be simplified. In a next generation of the `main` branch, `main` will focus on assets targeting the use of the zBuilder framework with DBB 3.0 and later. A new epic branch will support the development of required changes. Contents of the current `main` branch will be kept available via a new `groovy-based` branch, acting as a maintenance branch, that will provide access to existing Groovy-based assets.
+
+Until this change, the below branches' purposes are:
+
+* [main](https://github.com/IBM/dbb/tree/main) - keeps the existing structure for both zBuilder and Groovy-based assets.
+
+* [simplify/community-templates](https://github.com/IBM/dbb/tree/simplify/community-templates) - the new development branch focussing on the zBuilder framework with DBB 3.0 and later. This holds the simplified, designated target layout for the project.
+
+See [releases](https://github.com/IBM/dbb/releases) for prior versions of the community assets.
 
 ## Contributing
 
